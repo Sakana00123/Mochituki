@@ -1,0 +1,34 @@
+{
+    "name": "InputSystemAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e1521c0c-070d-479e-b31f-82c90f679f26",
+            "actions": [
+                {
+                    "name": "Mochitsuki",
+                    "type": "Value",
+                    "id": "c50660d3-3221-43ae-86f5-f03a53b7babf",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cfbb3e58-e981-46fa-854b-793fe16bb21a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mochitsuki",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
