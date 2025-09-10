@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class EnemyExploder : MonoBehaviour
 {
-    [SerializeField] Explosion explosion;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        Destroy(this);
     }
 
 }
