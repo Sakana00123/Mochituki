@@ -10,7 +10,7 @@ public class EnemyExploder : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         Destroy(this);
     }
